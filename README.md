@@ -64,8 +64,7 @@
 
 ## 🧙‍♂️ Terminal Magic
 
-> whoami
-Parth Tandalwade aka KhanjarSingh
+> Parth Tandalwade aka KhanjarSingh
 
 > skills --list
 [ Python, JavaScript, React, C++, SQL, Pandas, TailwindCSS ]
