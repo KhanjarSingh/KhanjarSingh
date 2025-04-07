@@ -64,25 +64,24 @@
 
 ## 🧙‍♂️ Terminal Magic
 
-whoami Parth Tandalwade aka KhanjarSingh
+> whoami
+Parth Tandalwade aka KhanjarSingh
 
-skills --list [ Python, JavaScript, React, C++, SQL, Pandas, TailwindCSS ]
+> skills --list
+[ Python, JavaScript, React, C++, SQL, Pandas, TailwindCSS ]
 
-now-playing 🚧 Building something awesome...
-
-yaml
-Copy
-Edit
+> now-playing
+🎯 Building something awesome...
 
 ---
 
-## 📝 GitHub Bio (optional, in Settings)
+## 📝 GitHub Bio
 
 - **Name:** Parth Tandalwade  
 - **Bio:** `🚀 Full-stack Developer | AI/ML Explorer | React & Python enthusiast`  
 - **Location:** India 🌍  
 - **LinkedIn:** ✅ Done  
-- **Website/Twitter:** _(Add later if needed)_
+
 
 ---
 
