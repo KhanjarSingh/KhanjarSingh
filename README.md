@@ -18,12 +18,11 @@
 🎓 First-year CS & AIML student @ ADYPU
 🤖 Passionate about AI, Web Dev, and solving real-world problems
 🌟 Goal: Create tech that impacts lives (and looks awesome doing it)
+🛠️ Tech Stack
 
 🏆 GitHub Stats
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=KhanjarSingh&show_icons=true&theme=light" width="48%"/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=KhanjarSingh&theme=default" width="48%"/> </p> <p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=KhanjarSingh&theme=flat&no-frame=true&column=7" /> </p>
-
-
-### 📫 Connect with Me
+📫 Connect with Me
 
 🔮 Fun Stuff
 🧠 Learning: AI/ML, AR Navigation Systems, System Design
@@ -34,7 +33,10 @@
 
 “Creativity is intelligence having fun.” – Albert Einstein
 
-
+🧙‍♂️ Terminal Magic
+shell
+Copy
+Edit
 > whoami
 Parth Tandalwade aka KhanjarSingh
 
@@ -43,4 +45,40 @@ Parth Tandalwade aka KhanjarSingh
 
 > now-playing
 🚧 Building something awesome...
+📝 GitHub Bio (optional)
+Name: Parth Tandalwade
+
+Bio: 🚀 Full-stack Developer | AI/ML Explorer | React & Python enthusiast | Building smart stuff
+
+Location: India 🌍
+
+LinkedIn: ✅ Done
+
+Website / Twitter: (Add later if needed)
+
+Inspired by minimalism, powered by caffeine, and driven by curiosity.
+
+yaml
+Copy
+Edit
+
+---
+
+### 📌 Final Steps:
+
+- Upload your banner image (`banner-light.png`) to your GitHub repo.
+- Make sure it’s in the root folder so the link works.
+- Commit this `README.md` file.
+
+Let me know when you’re ready for:
+- Dark theme version  
+- Projects section  
+- SVG avatar or blog automation  
+I got you 🔥
+
+
+
+
+
+
 
