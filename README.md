@@ -76,3 +76,14 @@ const parth = {
 </p>
 
 <p align="center"><sub>Google Big Code · Round 2 &nbsp;·&nbsp; Project Morpheus · 2nd of 500+ teams &nbsp;·&nbsp; Hacktoberfest 2024 &amp; 2025</sub></p>
+
+<h3 align="center">Let's talk</h3>
+
+<p align="center">
+  Got an internship, a project, or just want to talk code, swimming or anime?<br/>
+  <a href="mailto:parth.k@adypu.edu.in"><b>parth.k@adypu.edu.in</b></a>
+</p>
+
+<p align="center">
+  <a href="mailto:parth.k@adypu.edu.in"><img src="https://img.shields.io/badge/Email_me-parth.k%40adypu.edu.in-ff5c8a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a3b4f" alt="Email parth.k@adypu.edu.in" /></a>
+</p>
