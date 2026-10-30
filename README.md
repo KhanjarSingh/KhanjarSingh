@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://parthtandalwade.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3200&pause=900&color=5EEAD4&center=true&vCenter=true&width=720&lines=I+build+products+people+actually+use.;Freelancing+at+ZewaFeeds%3A+a+live+store%2C+built+solo.;Previously+at+Ionage%2C+Instilit+and+PopularDigital.AI.;Swimmer+%C2%B7+anime+watcher+%C2%B7+competitive+programmer." alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3200&pause=900&color=5EEAD4&center=true&vCenter=true&width=720&lines=I+build+products+people+actually+use.;Previously+at+Ionage%2C+Instilit+and+PopularDigital.AI.;Swimmer+%C2%B7+anime+watcher+%C2%B7+competitive+programmer." alt="Typing intro" />
   </a>
 </p>
 
@@ -24,7 +24,6 @@ I'm a computer science undergrad (AI/ML) at **Newton School of Technology** who 
 
 I work across the stack, from **React and React Native** on the front to **Node, Go and Python** on the back, and I care a lot about interfaces that feel smooth.
 
-- **Now:** building and running ZewaFeeds' store, back-office and API as a freelancer
 - **Open to:** internships and freelance work, [get in touch](mailto:parth.k@adypu.edu.in)
 - **Off the keyboard:** in the pool, on the volleyball court, or a few episodes into an anime arc
 
