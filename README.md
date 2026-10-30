@@ -57,18 +57,14 @@ const parth = {
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-gitblue.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-gitblock.svg" />
     <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution graph" />
   </picture>
 </p>
 
 <p align="center">
   <a href="https://leetcode.com/u/parth_0007/"><img height="185" src="https://leetcard.jacoblin.cool/parth_0007?theme=dark&font=Inter&border=0&radius=12&ext=heatmap" alt="LeetCode" /></a>
-  <a href="https://codeforces.com/profile/parth_0007"><img height="185" src="https://codeforces-readme-stats.vercel.app/api/card?username=parth_0007&theme=dark&disable_animations=false&show_icons=true&border_color=0d1117" alt="Codeforces" /></a>
-</p>
-
-<p align="center">
-  <img height="165" src="https://streak-stats.demolab.com?user=KhanjarSingh&hide_border=true&background=0d1117&ring=5eead4&fire=ff5c8a&currStreakLabel=5eead4&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e&stroke=1f2937" alt="GitHub streak" />
+  <img height="185" src="https://streak-stats.demolab.com?user=KhanjarSingh&hide_border=true&background=0d1117&ring=5eead4&fire=ff5c8a&currStreakLabel=5eead4&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e&stroke=1f2937" alt="GitHub streak" />
 </p>
 
 <p align="center">
