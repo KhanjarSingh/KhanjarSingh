@@ -75,6 +75,13 @@ const parth = {
   </picture>
 </p>
 
+<p align="center">
+  <b>Open source:</b> 19 merged PRs, including
+  <a href="https://github.com/Automattic/mongoose/pull/16190">Mongoose</a>,
+  <a href="https://github.com/drawdb-io/drawdb/pull/797">drawDB</a> and
+  <a href="https://github.com/CollaboraOnline/online/pull/15190">Collabora Online</a>
+</p>
+
 <p align="center"><sub>Google Big Code · Round 2 &nbsp;·&nbsp; Project Morpheus · 2nd of 500+ teams &nbsp;·&nbsp; Hacktoberfest 2024 &amp; 2025</sub></p>
 
 <h3 align="center">Let's talk</h3>
