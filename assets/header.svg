@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Parth Tandalwade, developer">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e5a6e"/>
+      <stop offset="0.45" stop-color="#0a3b4f"/>
+      <stop offset="1" stop-color="#04121c"/>
+    </linearGradient>
+    <linearGradient id="ray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b4f5ff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b4f5ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="340" rx="24"/></clipPath>
+    <style>
+      .t { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .wave { animation: drift linear infinite; }
+      .w1 { animation-duration: 9s; }
+      .w2 { animation-duration: 14s; animation-direction: reverse; }
+      .w3 { animation-duration: 20s; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-300px); } }
+
+      .ray { animation: sway 8s ease-in-out infinite; transform-box: fill-box; transform-origin: top; }
+      .ray:nth-child(2) { animation-duration: 11s; animation-delay: -3s; }
+      .ray:nth-child(3) { animation-duration: 9s; animation-delay: -5s; }
+      @keyframes sway { 0%,100% { transform: skewX(-10deg); opacity: .7; } 50% { transform: skewX(-4deg); opacity: 1; } }
+
+      .b { animation: rise linear infinite; opacity: 0; }
+      @keyframes rise { 0% { transform: translateY(0); opacity: 0; } 15% { opacity: .8; } 100% { transform: translateY(-260px); opacity: 0; } }
+
+      .swimmer { animation: swim 16s linear infinite; }
+      @keyframes swim { from { transform: translate(-140px, 0); } to { transform: translate(1340px, 0); } }
+      .bob { animation: bob 1.2s ease-in-out infinite; }
+      @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(3px); } }
+      .arm { animation: stroke 1.2s linear infinite; transform-box: view-box; transform-origin: 0 0; }
+      .arm2 { animation-delay: -0.6s; }
+      @keyframes stroke { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .kick { animation: kick .3s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: right center; }
+      @keyframes kick { from { transform: rotate(-8deg); } to { transform: rotate(8deg); } }
+
+      .fade { animation: fadein 1.2s ease-out both; }
+      .fade2 { animation-delay: .25s; }
+      .fade3 { animation-delay: .5s; }
+      @keyframes fadein { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+      .blink { animation: blink 1.6s ease-in-out infinite; }
+      @keyframes blink { 50% { opacity: .25; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#sea)"/>
+
+    <!-- light rays -->
+    <g>
+      <polygon class="ray" points="720,0 800,0 900,340 760,340" fill="url(#ray)"/>
+      <polygon class="ray" points="900,0 950,0 1040,340 950,340" fill="url(#ray)"/>
+      <polygon class="ray" points="1040,0 1110,0 1200,340 1090,340" fill="url(#ray)"/>
+    </g>
+
+    <!-- surface waves (each path repeats every 300px so the drift loops seamlessly) -->
+    <g class="wave w3" opacity="0.25">
+      <path d="M0 96 q75 -18 150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 V340 H0 Z" fill="#0b4a5e"/>
+    </g>
+    <g class="wave w2" opacity="0.5">
+      <path d="M0 84 q75 -14 150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0" fill="none" stroke="#9ff3ea" stroke-opacity=".35" stroke-width="2"/>
+    </g>
+    <g class="wave w1">
+      <path d="M0 72 q75 -12 150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0" fill="none" stroke="#e6fbff" stroke-opacity=".55" stroke-width="2.5"/>
+    </g>
+
+    <!-- swimmer doing freestyle along the surface -->
+    <g class="swimmer">
+      <!-- position lives on its own group: a CSS animation on the same element would override it -->
+      <g transform="translate(0 74)">
+      <g class="bob">
+        <!-- wake -->
+        <path d="M-120 2 q20 -5 40 0 t40 0 t40 0" fill="none" stroke="#e6fbff" stroke-opacity=".5" stroke-width="2"/>
+        <!-- legs -->
+        <rect class="kick" x="-46" y="-2" width="26" height="6" rx="3" fill="#f1c7a3"/>
+        <!-- body -->
+        <rect x="-22" y="-5" width="44" height="12" rx="6" fill="#0e7490"/>
+        <!-- arms rotating around the shoulder -->
+        <g transform="translate(16 -1)">
+          <rect class="arm" x="-3" y="-30" width="6" height="30" rx="3" fill="#f1c7a3"/>
+          <rect class="arm arm2" x="-3" y="-30" width="6" height="30" rx="3" fill="#f1c7a3" opacity=".75"/>
+        </g>
+        <!-- head, cap and goggles -->
+        <circle cx="32" cy="-3" r="10" fill="#ff5c8a"/>
+        <rect x="31" y="-2" width="11" height="4" rx="2" fill="#111"/>
+        <circle cx="40" cy="0" r="2.2" fill="#5eead4"/>
+        <!-- splash -->
+        <circle cx="48" cy="2" r="2" fill="#e6fbff" opacity=".7"/>
+        <circle cx="54" cy="-2" r="1.5" fill="#e6fbff" opacity=".5"/>
+      </g>
+      </g>
+    </g>
+
+    <!-- bubbles -->
+    <g fill="none" stroke="#e6fbff" stroke-opacity=".55">
+      <circle class="b" cx="640" cy="330" r="4" style="animation-duration:7s;animation-delay:-1s"/>
+      <circle class="b" cx="700" cy="335" r="6" style="animation-duration:9s;animation-delay:-4s"/>
+      <circle class="b" cx="860" cy="330" r="3" style="animation-duration:6s;animation-delay:-2s"/>
+      <circle class="b" cx="980" cy="338" r="5" style="animation-duration:10s;animation-delay:-6s"/>
+      <circle class="b" cx="1080" cy="332" r="3.5" style="animation-duration:8s;animation-delay:-3s"/>
+      <circle class="b" cx="1140" cy="336" r="7" style="animation-duration:12s;animation-delay:-8s"/>
+      <circle class="b" cx="560" cy="334" r="3" style="animation-duration:8.5s;animation-delay:-5s"/>
+    </g>
+
+    <!-- text -->
+    <g class="t">
+      <text class="fade" x="64" y="168" fill="#ffffff" font-size="64" font-weight="800" letter-spacing="-1.5">Parth Tandalwade</text>
+      <text class="fade fade2" x="66" y="210" fill="#5eead4" font-size="22" font-weight="600">Developer · Web · Mobile · AI</text>
+      <text class="fade fade3" x="66" y="250" fill="#e6fbff" fill-opacity=".55" font-size="16">I build products people actually use, and swim the same way.</text>
+      <g class="fade fade3">
+        <rect x="64" y="276" width="166" height="30" rx="15" fill="#5eead4" fill-opacity=".14" stroke="#5eead4" stroke-opacity=".4"/>
+        <circle class="blink" cx="84" cy="291" r="4.5" fill="#34d399"/>
+        <text x="96" y="296" fill="#a7f3d0" font-size="14" font-weight="600">Open to work</text>
+        <text x="250" y="296" fill="#e6fbff" fill-opacity=".45" font-size="14" letter-spacing="4">パース・タンダルワデ</text>
+      </g>
+    </g>
+
+    <!-- depth gauge ticks on the right edge -->
+    <g stroke="#e6fbff" stroke-opacity=".25">
+      <line x1="1170" y1="110" x2="1170" y2="310"/>
+      <line x1="1160" y1="110" x2="1170" y2="110"/><line x1="1164" y1="150" x2="1170" y2="150"/>
+      <line x1="1160" y1="190" x2="1170" y2="190"/><line x1="1164" y1="230" x2="1170" y2="230"/>
+      <line x1="1160" y1="270" x2="1170" y2="270"/><line x1="1164" y1="310" x2="1170" y2="310"/>
+    </g>
+    <text class="t" x="1150" y="114" fill="#5eead4" font-size="11" text-anchor="end" font-weight="600">0m</text>
+  </g>
+</svg>
